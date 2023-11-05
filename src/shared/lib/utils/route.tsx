@@ -1,4 +1,5 @@
 import { NCore } from "../../../../../../libs/module-expander";
+import { isUndefined } from "./lodash";
 
 export const getRoutes = (routesConfig: NCore.IRoute[]): NCore.IRoute[] => {
 	const routes: NCore.IRoute[] = [];
@@ -16,10 +17,10 @@ export const getRoutes = (routesConfig: NCore.IRoute[]): NCore.IRoute[] => {
 
 export const sortRoutes = (routesConfig: NCore.IRoute[]): NCore.IRoute[] => {
 	routesConfig.sort((a, b) => {
-		if (a.priority === undefined) {
+		if (isUndefined(a.priority)) {
 			return 1;
 		}
-		if (b.priority === undefined) {
+		if (isUndefined(b.priority)) {
 			return 1;
 		}
 
