@@ -2,8 +2,7 @@
 	"name": "platform",
 	"version": "1.0.0",
 	"main": "src/index.module.ts",
-	"repository": "git@github.com:Danil-Aleshin/platform.git",
-	"author": "",
+	"repository": "https://github.com/Danil-Aleshin/platform",
 	"license": "MIT",
 	"scripts": {
 		"lint": "tsc --noEmit && eslint --cache --ignore-path ../../.eslintignore src/ --ext .ts,.tsx,.js,.jsx --quiet",
