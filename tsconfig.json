@@ -1,0 +1,10 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"paths": {
+			"platform/*": ["platform/*"]
+		},
+		"noUncheckedIndexedAccess": true
+	},
+	"include": ["../platform", "src"]
+}

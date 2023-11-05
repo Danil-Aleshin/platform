@@ -1,0 +1,32 @@
+{
+	"name": "platform",
+	"version": "1.0.0",
+	"main": "src/index.module.ts",
+	"repository": "git@github.com:Danil-Aleshin/platform.git",
+	"author": "",
+	"license": "MIT",
+	"scripts": {
+		"lint": "tsc --noEmit && eslint --cache --ignore-path ../../.eslintignore src/ --ext .ts,.tsx,.js,.jsx --quiet",
+		"prettier": "prettier --find-config-path --ignore-path ../../.prettierignore --write ./src"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@reduxjs/toolkit": "^1.9.7",
+		"axios": "^1.6.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-query": "^3.39.3",
+		"react-redux": "^8.1.3",
+		"react-router": "^6.18.0",
+		"react-router-dom": "^6.18.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.34",
+		"@types/react-dom": "^18.2.14",
+		"@types/react-query": "^1.2.9",
+		"@types/react-router": "^5.1.20",
+		"@types/react-router-dom": "^5.3.3",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	}
+}
