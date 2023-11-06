@@ -6,6 +6,6 @@ export const navBlockStyle = (theme: TTheme) =>
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
-		rowGap: 35,
+		rowGap: 40,
 		padding: "35px 0px 0px 0px",
 	}) as const;
