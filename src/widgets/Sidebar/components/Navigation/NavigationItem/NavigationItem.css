@@ -1,0 +1,15 @@
+.nav__link {
+	line-height: 0;
+}
+
+.nav__link:last-child {
+	margin-top: auto;
+}
+
+.nav__link:hover svg {
+	fill: #34b53a;
+}
+
+.nav__link--active svg {
+	fill: #34b53a;
+}
