@@ -1,1 +1,1 @@
-export const _ = (theme: TTheme) => ({} as const);
+export const _ = (theme: TTheme) => ({}) as const;

@@ -6,4 +6,4 @@ export const overlayStyle = (theme: TTheme) =>
 		justifyContent: "center",
 		alignItems: "center",
 		animation: `${theme.visible} .2s ease-in-out`,
-	} as const);
+	}) as const;

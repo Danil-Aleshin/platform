@@ -5,4 +5,4 @@ export const containerWrapperStyles = (theme: TTheme) =>
 		width: "100%",
 		borderRadius: theme.defaultBorderRadius,
 		// boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.21)",
-	} as const);
+	}) as const;
